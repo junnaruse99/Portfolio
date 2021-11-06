@@ -1,0 +1,15 @@
+@startuml
+class Tool {
+   int id
+   string Name
+   string url
+   string img
+   int description
+   int type
+}
+
+class Type {
+   int id
+   string description
+}
+@enduml

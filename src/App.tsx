@@ -1,8 +1,19 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/layout/Navbar';
+import ToolState from './context/tools/ToolState';
+import Splash from './components/splash/splash';
 
 function App() {
   return (
-    <h1>Jun Naruse</h1>
+    <Router>
+      <Navbar />
+      <ToolState>
+      <Routes>
+        <Route path="/" element={<Splash />} />
+      </Routes>
+      </ToolState>
+    </Router>
   );
 }
 

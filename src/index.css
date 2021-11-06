@@ -5,9 +5,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #E5E4E2;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*********** START OF CARD *************/
+.card-tool {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.card:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+  color: black;
+}
+
+.card-img {
+  height: auto; 
+  width: auto; 
+  max-width: 160px; 
+  max-height: 160px;
+}
+
+.card-title {
+  text-align:center;
+}
+
+.card-text {
+  text-align:center;
+}
+
+.card-img-container {
+  max-height: 180;
+}
+/*********** END OF CARD *************/
+
