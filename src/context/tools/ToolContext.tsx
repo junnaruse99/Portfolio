@@ -1,6 +1,6 @@
 import { createContext } from 'react';
-import { Tools, defaultTool } from './ToolModel';
+import { Tools, defaultTools } from './ToolModel';
 
-const ToolContext = createContext<Tools>(defaultTool);
+const ToolContext = createContext<Tools>(defaultTools);
 
 export default ToolContext;

@@ -1,0 +1,18 @@
+[
+  {
+    "id":1,
+    "description": "Programming Languages"
+  },
+  {
+    "id":2,
+    "description": "Frameworks"
+  },
+  {
+    "id":3,
+    "description": "Databases"
+  },
+  {
+    "id":4,
+    "description": "External Tools"
+  }
+]

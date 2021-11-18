@@ -1,17 +1,19 @@
 import React, { useReducer, FC } from 'react';
 import ToolContext from './ToolContext';
-import { Tools, Error, defaultTool } from './ToolModel'
+import { Tool, defaultTools } from './ToolModel';
+import { Error } from '../Models';
 import ToolReducer from './ToolReducer';
 import { GET_TOOLS, TOOL_ERROR } from '../../types';
-import toolsData from '../../data/tools.json';
+let toolsData : Tool[] = require('../../data/tools.json');
+
 
 const ToolState: FC = props => {
   
-  const [ state, dispatch ] = useReducer(ToolReducer, defaultTool);
+  const [ state, dispatch ] = useReducer(ToolReducer, defaultTools);
 
   const getTools = async () => {
     try {
-      console.log(toolsData);
+      // sortByType(toolsData, true);
       dispatch({
         type: GET_TOOLS,
         payload: toolsData
@@ -30,6 +32,21 @@ const ToolState: FC = props => {
 
     }
   }
+
+  //  // Modify the array
+  // const sortByType = (tools : Tool[], reverse : Boolean) => {
+  //   console.log(tools);
+  //   if (reverse) {
+  //     tools.sort((obj1 : Tool, obj2 : Tool) : number => (
+  //       obj1.type.id < obj2.type.id ? -1 : obj1.type.id > obj2.type.id ? 1 : 0
+  //     ))
+  //   } else {
+  //     tools.sort((obj1 : Tool, obj2: Tool) : number => (
+  //       obj1.type.id < obj2.type.id ? 1 : obj1.type.id > obj2.type.id ? -1 : 0
+  //     ))
+  //     console.log(tools);
+  //   }
+  // }
 
   return (
     <ToolContext.Provider

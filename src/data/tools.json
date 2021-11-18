@@ -1,122 +1,178 @@
 [
-    {
-        "id":1,
-        "name":"React",
-        "url":"https://reactjs.org/",
-        "img":"https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-        "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
-        "type": 2
-    },
-    {
-        "id":2,
-        "name":"Bootstrap",
-        "url":"https://getbootstrap.com/",
-        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png",
-        "description": "Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.",
-        "type": 2
-    },
-    {
-        "id":3,
-        "name":"NodeJs",
-        "url":"https://nodejs.org/es/",
-        "img":"https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png",
-        "description": "Node.js® es un entorno de ejecución para JavaScript construido con el motor de JavaScript V8 de Chrome.",
-        "type": 2
-    },
-    {
-        "id":4,
-        "name":"JavaScript",
-        "url":"https://www.javascript.com/",
-        "img":"https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png",
-        "description": "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community.",
-        "type": 1
-    },
-    {
-        "id":5,
-        "name":"Python",
-        "url":"https://www.python.org/",
-        "img":"https://e7.pngegg.com/pngimages/621/411/png-clipart-computer-icons-python-anaconda-anaconda-angle-other-thumbnail.png",
-        "description": "The core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists.",
-        "type": 1
-    },
-    {
-        "id":6,
-        "name":"HTML",
-        "url":"https://www.w3schools.com/html/",
-        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png",
-        "description": "HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!",
-        "type": 1
-    },
-    {
-        "id":7,
-        "name":"CSS",
-        "url":"https://www.w3schools.com/css/",
-        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
-        "description": "HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!",
-        "type": 1
-    },
-    {
-        "id":8,
-        "name":"Java",
-        "url":"https://www.java.com/en/",
-        "img":"https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png",
-        "description": "Java is a programming language and computing platform first released by Sun Microsystems in 1995.",
-        "type": 1
-    },
-    {
-        "id":9,
-        "name":"AWS",
-        "url":"https://aws.amazon.com/",
-        "img":"https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
-        "description": "Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally.",
-        "type": 3
-    },
-    {
-        "id":10,
-        "name":"GCP",
-        "url":"https://cloud.google.com/",
-        "img":"https://www.freecodecamp.org/news/content/images/2020/10/gcp.png",
-        "description": "Is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, Google Drive, and YouTube.",
-        "type": 3
-    },
-    {
-        "id":11,
-        "name":"Github",
-        "url":"https://github.com/",
-        "img":"https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png",
-        "description": "GitHub, Inc. is a provider of Internet hosting for software development and version control using Git.",
-        "type": 3
-    },
-    {
-        "id":12,
-        "name":"Gitlab",
-        "url":"https://gitlab.com/",
-        "img":"https://about.gitlab.com/images/press/logo/jpg/gitlab-logo-gray-stacked-rgb.jpg",
-        "description": "GitLab is The DevOps Platform, delivered as a single application. This makes GitLab unique and creates a streamlined software workflow, unlocking your organization from the constraints of a pieced together toolchain.",
-        "type": 3
-    },
-    {
-        "id":13,
-        "name":"Sentry",
-        "url":"https://sentry.io/welcome/",
-        "img":"https://cdn.auth0.com/marketplace/catalog/content/assets/creators/sentry/sentry-avatar.png",
-        "description": "With Sentry’s performance monitoring you can trace performance issues to poor-performing api calls and slow database queries.",
-        "type": 3
-    },
-    {
-        "id":14,
-        "name":"Docker",
-        "url":"https://www.docker.com/",
-        "img":"https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png",
-        "description": "Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud.",
-        "type": 3
-    },
-    {
-        "id":15,
-        "name":"Google Analytics",
-        "url":"https://analytics.google.com/",
-        "img":"https://p.kindpng.com/picc/s/234-2347747_google-analytics-logo-google-analytics-logo-svg-hd.png",
-        "description": "Google Analytics is a web analytics service that provides statistics and basic analytical tools for search engine optimization (SEO) and marketing purposes.",
-        "type": 3
-    }
+  {
+    "id":1,
+    "name":"JavaScript",
+    "url":"https://www.javascript.com/",
+    "img":"https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png",
+    "description": "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community.",
+    "tool_id": 1
+  },
+  {
+    "id":2,
+    "name":"Python",
+    "url":"https://www.python.org/",
+    "img":"https://e7.pngegg.com/pngimages/621/411/png-clipart-computer-icons-python-anaconda-anaconda-angle-other-thumbnail.png",
+    "description": "The core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists.",
+    "tool_id": 1
+  },
+  {
+    "id":3,
+    "name":"HTML",
+    "url":"https://www.w3schools.com/html/",
+    "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png",
+    "description": "HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!",
+    "tool_id": 1
+  },
+  {
+    "id":4,
+    "name":"CSS",
+    "url":"https://www.w3schools.com/css/",
+    "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+    "description": "HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!",
+    "tool_id": 1
+  },
+  {
+    "id":5,
+    "name":"Java",
+    "url":"https://www.java.com/en/",
+    "img":"https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png",
+    "description": "Java is a programming language and computing platform first released by Sun Microsystems in 1995.",
+    "tool_id": 1
+  },
+  {
+    "id":6,
+    "name":"TypeScript",
+    "url":"https://www.typescriptlang.org/",
+    "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+    "description": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
+    "tool_id": 1
+  },
+  {
+    "id":7,
+    "name":"React",
+    "url":"https://reactjs.org/",
+    "img":"https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+    "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+    "tool_id": 2
+  },
+  {
+    "id":8,
+    "name":"Bootstrap",
+    "url":"https://getbootstrap.com/",
+    "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png",
+    "description": "Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkits.",
+    "tool_id": 2
+  },
+  {
+    "id":9,
+    "name":"NodeJs",
+    "url":"https://nodejs.org/es/",
+    "img":"https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png",
+    "description": "Node.js® es un entorno de ejecución para JavaScript construido con el motor de JavaScript V8 de Chrome.",
+    "tool_id": 2
+  },
+  {
+    "id":10,
+    "name":"Django",
+    "url":"https://www.djangoproject.com/",
+    "img":"https://www.djangoproject.com/m/img/logos/django-logo-positive.png",
+    "description": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+    "tool_id": 2
+  },
+  {
+    "id":11,
+    "name":"Flask",
+    "url":"https://flask.palletsprojects.com/en/2.0.x/",
+    "img":"https://www.pngkey.com/png/detail/98-985032_flask-logo-flask-python-icon.png",
+    "description": "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.",
+    "tool_id": 2
+  },
+  {
+    "id":12,
+    "name":"MySQL",
+    "url":"https://www.mysql.com/",
+    "img":"https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png",
+    "description": "MySQL Database Service is a fully managed database service to deploy cloud-native applications.",
+    "tool_id": 3
+  },
+  {
+    "id":13,
+    "name":"PostgreSQL",
+    "url":"https://www.postgresql.org/",
+    "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
+    "description": "PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development.",
+    "tool_id": 3
+  },
+  {
+    "id":14,
+    "name":"MongoDB",
+    "url":"https://www.mongodb.com/",
+    "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png",
+    "description": "MongoDB is a document-oriented NoSQL database used for high volume data storage.",
+    "tool_id": 3
+  },
+  {
+    "id":15,
+    "name":"AWS",
+    "url":"https://aws.amazon.com/",
+    "img":"https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
+    "description": "Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally.",
+    "tool_id": 4
+  },
+  {
+    "id":16,
+    "name":"GCP",
+    "url":"https://cloud.google.com/",
+    "img":"https://www.freecodecamp.org/news/content/images/2020/10/gcp.png",
+    "description": "Is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, Google Drive, and YouTube.",
+    "tool_id": 4
+  },
+  {
+    "id":17,
+    "name":"Github",
+    "url":"https://github.com/",
+    "img":"https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png",
+    "description": "GitHub, Inc. is a provider of Internet hosting for software development and version control using Git.",
+    "tool_id": 4
+  },
+  {
+    "id":18,
+    "name":"Gitlab",
+    "url":"https://gitlab.com/",
+    "img":"https://about.gitlab.com/images/press/logo/jpg/gitlab-logo-gray-stacked-rgb.jpg",
+    "description": "GitLab is The DevOps Platform, delivered as a single application. This makes GitLab unique and creates a streamlined software workflow, unlocking your organization from the constraints of a pieced together toolchain.",
+    "tool_id": 4
+  },
+  {
+    "id":19,
+    "name":"Sentry",
+    "url":"https://sentry.io/welcome/",
+    "img":"https://cdn.auth0.com/marketplace/catalog/content/assets/creators/sentry/sentry-avatar.png",
+    "description": "With Sentry’s performance monitoring you can trace performance issues to poor-performing api calls and slow database queries.",
+    "tool_id": 4
+  },
+  {
+    "id":20,
+    "name":"Docker",
+    "url":"https://www.docker.com/",
+    "img":"https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png",
+    "description": "Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud.",
+    "tool_id": 4
+  },
+  {
+    "id":21,
+    "name":"Google Analytics",
+    "url":"https://analytics.google.com/",
+    "img":"https://p.kindpng.com/picc/s/234-2347747_google-analytics-logo-google-analytics-logo-svg-hd.png",
+    "description": "Google Analytics is a web analytics service that provides statistics and basic analytical tools for search engine optimization (SEO) and marketing purposes.",
+    "tool_id": 4
+  },
+  {
+    "id":22,
+    "name":"Heroku",
+    "url":"https://www.heroku.com/",
+    "img":"https://www.pikpng.com/pngl/b/476-4763953_mobile-cloud-and-heroku-100-pure-java-heroku.png",
+    "description": "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
+    "tool_id": 4
+  }
 ]

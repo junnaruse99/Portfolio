@@ -1,3 +1,5 @@
+import { Error } from '../Models'
+
 export interface Tools {
   tools: Tool[];
   message: Error | null;
@@ -10,15 +12,11 @@ export interface Tool {
   url: string;
   img: string;
   description: string;
+  tool_id: number;
 }
 
-export interface Error {
-  msg: string;
-  class: string;
-}
-
-export const defaultTool:Tools = {
-  tools : [],
+export const defaultTools : Tools = {
+  tools: [],
   message: null,
-  getTools: () => {}
+  getTools: () => {},
 }
