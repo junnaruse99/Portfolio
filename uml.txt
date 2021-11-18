@@ -1,15 +1,36 @@
 @startuml
 class Tool {
-   int id
-   string Name
-   string url
-   string img
-   int description
-   int type
+    int id
+    string Name
+    string URL
+    string img
+    int description
+    int tool_id
 }
 
-class Type {
-   int id
-   string description
+class Tool_type {
+    int id
+    string description
+}
+
+class Project {
+    int id
+    string name
+    string back_url
+    string front_url
+    string demo_url
+    string description
+}
+
+class Project_tools {
+    int id
+    int project_id
+    int tool_type_id
+}
+
+class Media {
+    int id
+    string description
+    string contact
 }
 @enduml
