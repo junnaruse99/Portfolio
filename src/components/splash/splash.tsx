@@ -4,7 +4,7 @@ import ListTools from './listTools';
 
 const Splash = () => {
 	const toolContext = useContext(ToolContext);
-	const { tools, getTools } = toolContext;
+	const { tools, message, getTools } = toolContext;
 
 	useEffect(() => {    
 		getTools();
@@ -12,13 +12,15 @@ const Splash = () => {
 
 	return (
 		<div className='container'>
-			<div className='row justify-content-center'>
+			{message ? <div>{message}</div> : 
+				<div className='row justify-content-center'>
 				{tools.length ? (
 					tools.map(tool => 
 						<ListTools key={tool.id} tool={tool}/>
 					)
 				) : null}
-			</div>
+				</div>
+			}
 		</div>
 	);
 }
