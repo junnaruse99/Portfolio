@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "description": "Github",
+        "contact": "https://github.com/junnaruse99"
+    },
+    {
+        "id": 2,
+        "description": "Gitlab",
+        "contact": "https://gitlab.com/jun.naruse"
+    },
+    {
+        "id": 3,
+        "description": "LinkedIn",
+        "contact": "https://www.linkedin.com/in/jun-naruse/"
+    },
+    {
+        "id": 4,
+        "description": "Email",
+        "contact": "jun.naruse@gmail.com"
+    }
+]

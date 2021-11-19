@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name": "Software Engineer Intern",
+        "start_date": "Jan 2021",
+        "end_date": "Mar 2021",
+        "location": "Interbank",
+        "description": "Developed a recommendation algorithm and integrated a natural language processing from google cloud platform.",
+        "achievements": "Awarded with the best project during that internship."
+    }
+]
