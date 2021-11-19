@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Pontificia Universidad Catolica del Peru",
+        "location": "Lima, Peru",
+        "start_date": "Mar 2016",
+        "end_date": "now",
+        "description": "Mechatronic Engineer"
+    },
+    {
+        "id": 2,
+        "name": "University of Texas at Austin",
+        "location": "Austin, Texas",
+        "start_date": "Aug 2021",
+        "end_date": "Dec 2021",
+        "description": "Computer Science"
+    }
+]
