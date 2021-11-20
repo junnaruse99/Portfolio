@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react'
 import ToolContext from '../../context/tools/ToolContext';
 import ListTools from './listTools';
 
-const Splash = () => {
+const Tools = () => {
 	const toolContext = useContext(ToolContext);
 	const { tools, message, getTools } = toolContext;
 
@@ -25,4 +25,4 @@ const Splash = () => {
 	);
 }
 
-export default Splash;
+export default Tools;
