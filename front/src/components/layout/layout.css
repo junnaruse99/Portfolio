@@ -1,0 +1,21 @@
+/* START OF NAVBAR */
+.navbar {
+    position: fixed;
+}
+
+@media (min-width:768px) {
+    .nav-toggle {
+        display:None;
+    }
+}
+
+@media (max-width:767px) {
+    .toggle-inactive {
+        display:none;
+    }
+
+    .toggle-active {
+        display:absolute;
+    }
+}
+/* END OF NAVBAR */

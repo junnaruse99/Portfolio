@@ -1,33 +1,29 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import './layout.css';
 
 const Navbar = () => {
-  const activateToggle = () => {
 
+  const [ toggleClass, setToggleClass ] = useState<String>("toggle-inactive");
+
+  const activateToggle = () => {
+    if (toggleClass === 'toggle-active') {
+      setToggleClass('toggle-inactive');
+    } else {
+      setToggleClass('toggle-active');
+    }
   }
 
   return (
-    <nav className="navbar navbar-dark bg-dark navbar-expand-lg mb-4">
-      <div className='container'>
-        <Link className="navbar-brand" to="/">Navbar</Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
-            <Link className="nav-link" to="/">Home</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/projects">Projects</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="#">Contact me</Link>
-          </li>
-          </ul>
-        </div>
-      </div>
+    <nav className='navbar'>
+      <ul className={`navbar-nav ${toggleClass}`}>
+        <li className='nav-item'>Profile</li>
+        <li>Projects</li>
+        <li>Abilities</li>
+        <li>Experience</li>
+        <li>Education</li>
+        <li>Contact me</li>
+      </ul>
+      <button className='nav-toggle' onClick={activateToggle}>Press</button>
     </nav>
   );
 }
