@@ -9,7 +9,7 @@ function App() {
   return (
     <ProjectState>
       <ToolState>
-        <Navbar />
+        <Navbar/>
         <Projects />
         <Tools />
       </ToolState>

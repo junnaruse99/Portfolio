@@ -12,7 +12,7 @@ const Projects = () => {
 	}, []);
 
     return (
-        <div className='container'>
+        <div className='container' id='Projects'>
             {projects.length ? (
                 projects.map(project => 
                     <ListProject project={project} key={project.id}/>

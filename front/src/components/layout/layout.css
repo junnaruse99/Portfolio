@@ -1,8 +1,47 @@
 /* START OF NAVBAR */
 .navbar {
+    padding:0;
     position: fixed;
+    display: flex;
+    flex-direction: row;
+    width:auto;
+    top: 40%;
+    right:2%;
+    background-color: black;
+    color: white;
+    justify-content: flex-end;
 }
 
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.nav-toggle {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.navbar-nav a {
+    scroll-behavior: smooth;
+    text-decoration: none;
+    color: white;
+  }
+  
+.navbar-nav:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    color: ligthgray;
+}
+  
 @media (min-width:768px) {
     .nav-toggle {
         display:None;
@@ -10,12 +49,26 @@
 }
 
 @media (max-width:767px) {
+    .navbar {
+        top:0;
+        right:0;
+    }
+
     .toggle-inactive {
         display:none;
     }
 
     .toggle-active {
-        display:absolute;
+        width:100%;
+    }
+
+    .toggle-active + button{
+        width:100%;
+    }
+
+    .navbar {
+        padding:0;
+        width:100%;
     }
 }
 /* END OF NAVBAR */
