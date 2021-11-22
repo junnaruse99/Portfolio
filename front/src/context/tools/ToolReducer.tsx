@@ -5,7 +5,8 @@ export default (state:any, action:any) => {
     case GET_TOOLS:
       return{
         ...state,
-        tools: action.payload
+        tools: action.payload,
+        message: null
       }
     case TOOL_ERROR:
       return{
