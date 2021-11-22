@@ -2,9 +2,9 @@ import { Error } from '../Models';
 
 export interface Profile {
     personal: Me | null;
-    education: Education[];
-    experience: Experience[];
-    media: Media[];
+    educations: Education[];
+    experiences: Experience[];
+    medias: Media[];
     message: Error | null;
     getProfile: () => void;
 }
@@ -20,7 +20,7 @@ export interface Education {
     id: number;
     name: number;
     location: string;
-    start_data: Date;
+    start_date: Date;
     end_date: Date;
     description: string;
 }
@@ -39,13 +39,14 @@ export interface Media {
     id: number;
     description: string;
     contact: string;
+    img: string;
 }
 
 export const defaultProfile : Profile = {
     personal: null,
-    education: [],
-    experience: [],
-    media: [],
+    educations: [],
+    experiences: [],
+    medias: [],
     message: null,
     getProfile: () => {}
 }

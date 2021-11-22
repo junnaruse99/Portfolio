@@ -6,9 +6,9 @@ export default (state:any, action:any) => {
       return{
         ...state,
         personal: action.payload.personal,
-        education:action.payload.education,
-        experience: action.payload.experience,
-        media: action.payload.media,
+        educations:action.payload.educations,
+        experiences: action.payload.experiences,
+        medias: action.payload.medias,
         message: null
       }
     case PROFILE_ERROR:

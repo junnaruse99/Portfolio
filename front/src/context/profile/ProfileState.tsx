@@ -18,9 +18,9 @@ const ProfileState: FC = props => {
     // Build my object
     let profile : Profile = {
       personal: meData,
-      education: educationData,
-      experience: experienceData,
-      media: mediaData,
+      educations: educationData,
+      experiences: experienceData,
+      medias: mediaData,
       message: null,
       getProfile: () => {}
     }
@@ -50,9 +50,9 @@ const ProfileState: FC = props => {
     <ProfileContext.Provider
     value={{
         personal: state.personal,
-        education: state.education,
-        experience: state.experience,
-        media: state.media,
+        educations: state.educations,
+        experiences: state.experiences,
+        medias: state.medias,
         message: state.message,
         getProfile,
     }}>
