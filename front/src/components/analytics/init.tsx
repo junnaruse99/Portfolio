@@ -1,7 +1,7 @@
 import ReactGA from 'react-ga';
 
-const init = () : void => {
-
+const initGA = () : void => {
+    
     const regex = /:\/\/([^.]+)/.exec(window.location.href);
 
     let subdomain = '';
@@ -9,16 +9,24 @@ const init = () : void => {
         subdomain = regex[1];
     }
 
-    console.log(subdomain);
+    let analyticsId = process.env['REACT_APP_GENERAL_TRAKCING_ID_PROD'];
+    
+    if (!analyticsId) return;
 
-    if (process.env.NODE_ENV == 'production' && subdomain === 'www') {
-        ReactGA.initialize(`${process.env['REACT_APP_GENERAL_TRAKCING_ID_PROD']}`);
+    console.log(analyticsId);
+
+    if (process.env.NODE_ENV === 'production' && subdomain === 'www') {
+        ReactGA.initialize(analyticsId);
         console.log('you are in production');
     } else {
-        ReactGA.initialize(`${process.env['REACT_APP_GENERAL_TRAKCING_ID_DEV']}`);
-        console.log('you are in development')
+        ReactGA.initialize(analyticsId);
+        console.log('you are in development');
     }
-    ReactGA.pageview('/');
+
+    // Report page view
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log(window.location.pathname);
+
 }
 
-export default init;
+export default initGA;

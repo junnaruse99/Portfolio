@@ -9,11 +9,11 @@ import Profile from './components/profile/Profile';
 import Experience from './components/experience/Exprience';
 import Education from './components/education/Education';
 import Contact from './components/contact/Contact';
-import init from './components/analytics/init';
+import initGA from './components/analytics/init';
 
 function App() {
   
-  init();
+  initGA();
 
   return (
     <ProjectState>
