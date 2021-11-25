@@ -1,15 +1,23 @@
 /* START OF NAVBAR */
 .navbar {
     padding:0;
-    position: absolute;
     display: flex;
     flex-direction: row;
     width:110px;
-    top: 100%;
     right:2%;
     background-color: black;
     color: white;
     justify-content: flex-end;
+}
+
+.absolute {
+    top: 100%;
+    position: absolute;
+}
+
+.fixed {
+    top:10%;
+    position: fixed;
 }
 
 .active {
@@ -24,10 +32,13 @@
 }
 
 .nav-item {
+    height: auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-.nav-item {
+.nav-item a{
     padding: 10px;
 }
 
@@ -55,9 +66,12 @@
 
 @media (max-width:767px) {
     .navbar {
-        top:100%;
         right:0;
-        z-index:1;
+        z-index:999;
+    }
+
+    .fixed {
+        top:0;
     }
 
     .toggle-inactive {

@@ -16,7 +16,7 @@ const Profile = () => {
     if (!personal) return(<div></div>);
 
     return(
-    <>
+    <div className='bg-white'>
         <div className='container d-flex flex-column justify-content-center align-items-center vh-100' id="Profile">
             <div className='display-1'>{personal.name}</div>
             <hr className='w-100'/>
@@ -26,7 +26,7 @@ const Profile = () => {
         <a href='#Projects' className='btn-profile d-flex justify-content-center align-items-center'>
             <span><FontAwesomeIcon icon={faChevronDown} size = '2x'/></span>
         </a>
-    </>
+    </div>
     )
 }
 

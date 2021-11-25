@@ -12,6 +12,7 @@ const Tools = () => {
 
 	return (
 		<div className='container' id='Abilities'>
+            <h1 className='mb-4 text-center'>Tools</h1>
 			{message ? <div>{message}</div> : 
 				<div className='row justify-content-center'>
 				{tools.length ? (

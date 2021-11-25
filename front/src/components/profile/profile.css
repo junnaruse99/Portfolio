@@ -16,10 +16,10 @@
 
 @keyframes up-down {
     from {
-      transform: translateY(0);
+      transform: translateY(-5px);
     }
     to {
-      transform: translateY(8px);
+      transform: translateY(5px);
     }
 }
 
