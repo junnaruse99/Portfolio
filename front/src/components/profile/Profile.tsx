@@ -24,7 +24,7 @@ const Profile = () => {
             <div className='mt-2'>{personal.location.toUpperCase()}</div>
         </div>
         <a href='#Projects' className='btn-profile d-flex justify-content-center align-items-center'>
-            <FontAwesomeIcon icon={faChevronDown} size = '2x'/>
+            <span><FontAwesomeIcon icon={faChevronDown} size = '2x'/></span>
         </a>
     </>
     )
