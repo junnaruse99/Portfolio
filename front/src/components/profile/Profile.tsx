@@ -1,5 +1,8 @@
 import React, { useContext, useEffect } from 'react'
 import profilecontext from '../../context/profile/ProfileContext';
+import './profile.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 const Profile = () => {
 
@@ -10,12 +13,20 @@ const Profile = () => {
 		getProfile();
 	}, []);
 
+    if (!personal) return(<div></div>);
+
     return(
-        <div className='container' id="Profile">
-            <div className='d-flex flex-row justify-content-center align-items-center vh-100 display-1'>
-                {personal ? personal.name : null}
-            </div>
+    <>
+        <div className='container d-flex flex-column justify-content-center align-items-center vh-100' id="Profile">
+            <div className='display-1'>{personal.name}</div>
+            <hr className='w-100'/>
+            <div className='mt-2'>{personal.career.toUpperCase()}</div>
+            <div className='mt-2'>{personal.location.toUpperCase()}</div>
         </div>
+        <a href='#Projects' className='btn-profile d-flex justify-content-center align-items-center'>
+            <FontAwesomeIcon icon={faChevronDown} size = '2x'/>
+        </a>
+    </>
     )
 }
 

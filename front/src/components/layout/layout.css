@@ -1,21 +1,26 @@
 /* START OF NAVBAR */
 .navbar {
     padding:0;
-    position: fixed;
+    position: absolute;
     display: flex;
     flex-direction: row;
-    width:auto;
-    top: 40%;
+    width:110px;
+    top: 100%;
     right:2%;
     background-color: black;
     color: white;
     justify-content: flex-end;
 }
 
+.active {
+    background-color: gray;
+}
+
 .navbar-nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: inherit;
 }
 
 .nav-item {
@@ -37,8 +42,8 @@
     color: white;
   }
   
-.navbar-nav:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+.nav-item a:hover {
+    box-shadow: 0 0 110px rgba(33,33,33,.2); 
     color: ligthgray;
 }
   
@@ -50,8 +55,9 @@
 
 @media (max-width:767px) {
     .navbar {
-        top:0;
+        top:100%;
         right:0;
+        z-index:1;
     }
 
     .toggle-inactive {
