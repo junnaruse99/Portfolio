@@ -9,6 +9,8 @@ const Contact = () => {
 
     return(
         <footer className='container vh-100' id="Contact">
+            <h1 className='mb-4 text-center'>Contact</h1>
+
             {medias ? medias.map( media =>
                 <ListContact media={media} key={media.id} />
             ) : null }
