@@ -13,6 +13,7 @@ export interface Project {
     front_url: string;
     demo_url: string;
     description: string;
+    img: string;
 }
 
 export const defaultProject : Projects = {
