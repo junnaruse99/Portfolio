@@ -1,3 +1,43 @@
 #Projects {
     padding-top: 15vh;
 }
+
+.proj-img {
+    max-width: 100%;
+    width: auto;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card {
+    position: relative;
+}
+
+.proj-data {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.hide-data {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    background-color: rgb(173, 216, 109, 0.8);
+    flex-direction: column;
+}
+
+.proj-data:hover .hide-data {
+    visibility: visible;
+}
+
+.hide-data .row {
+    width:100%;
+}

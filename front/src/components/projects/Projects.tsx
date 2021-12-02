@@ -13,7 +13,7 @@ const Projects = () => {
 	}, []);
 
     return (
-        <div className='container vh-100' id='Projects'>
+        <div className='container' id='Projects'>
             <h1 className='mb-4 text-center'>My Projects</h1>
             {projects.length ? (
                 projects.map(project => 
