@@ -23,6 +23,7 @@ export interface Education {
     start_date: Date;
     end_date: Date;
     description: string;
+    extra: string;
 }
 
 export interface Experience {
@@ -32,14 +33,14 @@ export interface Experience {
     end_date: Date;
     location: string;
     description: string;
-    achievement: string;
+    achievements: string;
 }
 
 export interface Media {
     id: number;
+    icon: string;
     description: string;
     contact: string;
-    img: string;
 }
 
 export const defaultProfile : Profile = {

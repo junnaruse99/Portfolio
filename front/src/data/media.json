@@ -1,21 +1,25 @@
 [
     {
         "id": 1,
+        "icon": "faGithub",
         "description": "Github",
         "contact": "https://github.com/junnaruse99"
     },
     {
         "id": 2,
+        "icon": "faGitlab",
         "description": "Gitlab",
         "contact": "https://gitlab.com/jun.naruse"
     },
     {
         "id": 3,
+        "icon": "faLinkedin",
         "description": "LinkedIn",
         "contact": "https://www.linkedin.com/in/jun-naruse/"
     },
     {
         "id": 4,
+        "icon": "faMail",
         "description": "Email",
         "contact": "jun.naruse@gmail.com"
     }

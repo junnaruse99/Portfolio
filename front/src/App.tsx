@@ -8,7 +8,7 @@ import Projects from './components/projects/Projects';
 import Profile from './components/profile/Profile';
 import Experience from './components/experience/Exprience';
 import Education from './components/education/Education';
-import Contact from './components/contact/Contact';
+import Footer from './components/layout/Footer';
 import initGA from './components/analytics/init';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
           <Tools />
           <Experience />
           <Education />
-          <Contact />
+          <Footer />
         </ProfileState>
       </ToolState>
     </ProjectState>

@@ -5,7 +5,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
 
-  const nav = ['Profile', 'Projects', 'Abilities', 'Experience', 'Education', 'Contact']
+  const nav = ['Profile', 'Projects', 'Tools', 'Experience', 'Education', 'Contact']
 
   // Get the position of the scroll
   const [scrollPosition, setScrollPosition] = useState<number>(0);

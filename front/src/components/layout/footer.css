@@ -1,0 +1,13 @@
+#Contact {
+    padding: 5vh 0;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+#Contact a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}

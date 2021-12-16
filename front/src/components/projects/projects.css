@@ -1,5 +1,5 @@
 #Projects {
-    padding-top: 15vh;
+    padding: 15vh 0;
 }
 
 .proj-img {
@@ -13,6 +13,11 @@
 
 .card {
     position: relative;
+    border: 0px;
+}
+
+.card-body {
+    min-height: 200px;
 }
 
 .proj-data {
@@ -39,5 +44,11 @@
 }
 
 .hide-data .row {
-    width:100%;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.hide-data .row a {
+    width: 30%;
 }
