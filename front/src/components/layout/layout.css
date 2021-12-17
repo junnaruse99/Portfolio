@@ -5,7 +5,7 @@
     flex-direction: row;
     width:110px;
     right:2%;
-    background-color: black;
+    background-color: #434242;
     color: white;
     justify-content: flex-end;
 }
@@ -21,7 +21,7 @@
 }
 
 .active {
-    background-color: gray;
+    background-color: #2a9d8f;
 }
 
 .navbar-nav {
@@ -52,6 +52,7 @@
     scroll-behavior: smooth;
     text-decoration: none;
     color: white;
+    font-weight: 600;
   }
   
 .nav-item a:hover {

@@ -2,6 +2,10 @@
     padding: 15vh 0;
 }
 
+#Projects h1 {
+    color: white;
+}
+
 .proj-img {
     max-width: 100%;
     width: auto;
@@ -44,8 +48,9 @@
 }
 
 .card-text {
+    color: white;
     transition: transform 1000ms;
-    transform: translateX(-80px);
+    transform: translateX(-100px);
 }
 
 .proj-data:hover .card-text {
@@ -54,7 +59,7 @@
 
 .card-links {
     transition: transform 1000ms;
-    transform: translateX(80px);
+    transform: translateX(100px);
 }
 
 .proj-data:hover .card-links {
@@ -82,6 +87,17 @@
 
 .card {
     overflow: hidden;
+}
+
+.hide-data hr {
+    height: 4px;
+    background-color: white;
+    opacity: 100;
+}
+
+#Projects .btn {
+    background-color: #264653;
+    color: white;
 }
 
 @media (max-width:1200px) {

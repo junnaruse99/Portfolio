@@ -1,5 +1,6 @@
 import React from 'react'
 import { Tool } from '../../context/tools/ToolModel'
+import './tools.css';
 
 const ListTools = ({tool}:{tool:Tool}) => {
   return(
@@ -8,9 +9,9 @@ const ListTools = ({tool}:{tool:Tool}) => {
       <div className='card-img-container row justify-content-center p-3'>
         <img className="card-img card-img-top" src={tool.img} alt="Card image" />
       </div>
-      <div className="card-body">
-        <h5 className="card-title">{tool.name}</h5>
-        <p className="card-text">{tool.description}</p>
+      <div className="card-tool-body">
+        <h5 className="card-tool-title">{tool.name}</h5>
+        <p className="card-tool-text">{tool.description}</p>
       </div>
     </a>
   </div>
