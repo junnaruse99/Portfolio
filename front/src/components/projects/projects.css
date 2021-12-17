@@ -35,12 +35,30 @@
     justify-content: center;
     align-items: center;
     visibility: hidden;
-    background-color: rgb(173, 216, 109, 0.8);
+    background-color: rgb(42, 157, 143, 0.9);
     flex-direction: column;
 }
 
 .proj-data:hover .hide-data {
     visibility: visible;
+}
+
+.card-text {
+    transition: transform 1000ms;
+    transform: translateX(-80px);
+}
+
+.proj-data:hover .card-text {
+    transform: translateX(0px);
+}
+
+.card-links {
+    transition: transform 1000ms;
+    transform: translateX(80px);
+}
+
+.proj-data:hover .card-links {
+    transform: translateX(0px);
 }
 
 .hide-data .row {
@@ -52,3 +70,23 @@
 .hide-data .row a {
     width: 30%;
 }
+
+#Projects .row {
+    justify-content: space-around;
+}
+
+#Projects .card {
+    width: 45%;
+    margin: 10vh 0;
+}
+
+.card {
+    overflow: hidden;
+}
+
+@media (max-width:1200px) {
+    #Projects .card {
+        width: 100%;
+        margin: 10vh 0;
+    }
+  }
