@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import ProjectContext from '../../context/projects/ProjectContext';
 import ListProject from './listProject';
+import './projects.css';
 
 const Projects = () => {
 
@@ -12,7 +13,8 @@ const Projects = () => {
 	}, []);
 
     return (
-        <div className='container'>
+        <div className='container' id='Projects'>
+            <h1 className='mb-4 text-center'>My Projects</h1>
             {projects.length ? (
                 projects.map(project => 
                     <ListProject project={project} key={project.id}/>

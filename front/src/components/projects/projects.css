@@ -1,0 +1,54 @@
+#Projects {
+    padding: 15vh 0;
+}
+
+.proj-img {
+    max-width: 100%;
+    width: auto;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    border: 0px;
+}
+
+.card-body {
+    min-height: 200px;
+}
+
+.proj-data {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.hide-data {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    background-color: rgb(173, 216, 109, 0.8);
+    flex-direction: column;
+}
+
+.proj-data:hover .hide-data {
+    visibility: visible;
+}
+
+.hide-data .row {
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.hide-data .row a {
+    width: 30%;
+}

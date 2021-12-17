@@ -5,7 +5,8 @@
         "location": "Lima, Peru",
         "start_date": "Mar 2016",
         "end_date": "now",
-        "description": "Mechatronic Engineer"
+        "description": "Mechatronic Engineering",
+        "extra": "Top 10% of my major"
     },
     {
         "id": 2,
@@ -13,6 +14,7 @@
         "location": "Austin, Texas",
         "start_date": "Aug 2021",
         "end_date": "Dec 2021",
-        "description": "Computer Science"
+        "description": "Computer Science",
+        "extra": "GPA of 3.8"
     }
 ]

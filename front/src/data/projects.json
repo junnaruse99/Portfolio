@@ -4,20 +4,23 @@
     "back_url": "https://github.com/junnaruse99/efficiency-tracker-api",
     "front_url": "https://github.com/junnaruse99/efficiency-tracker",
     "demo_url": "https://junnaruse99.github.io/efficiency-tracker/#/",
-    "description": null
+    "description": "Organize your projects with a kanban board. You can either login or continue without login and use cookies to save the projects. MERN (Mongo, Express, React and Node) stack.",
+    "img": null
     },
     {"id": 2,
     "name": "Crown DB",
     "back_url": "https://gitlab.com/mgrubbs/coviddb/-/tree/main/back",
     "front_url": "https://gitlab.com/mgrubbs/coviddb/-/tree/main/react",
     "demo_url": "https://www.crown19db.me/",
-    "description": null
+    "description": "Extensive covid database for most of the countries. Three model pages with 100+ instances for each model. Includes visualizations and media. This was developed with a team of 5.",
+    "img": "https://i.ibb.co/Hh2Nhfs/coviddb.png"
     },
     {"id": 3,
     "name": "Efficiency tracker",
     "back_url": "https://github.com/junnaruse99/efficiency-tracker-api",
     "front_url": "https://github.com/junnaruse99/efficiency-tracker",
     "demo_url": "https://junnaruse99.github.io/efficiency-tracker/#/",
-    "description": null
+    "description": "In progress ...",
+    "img": null
     }
 ]

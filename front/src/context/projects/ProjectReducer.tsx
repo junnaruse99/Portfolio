@@ -5,7 +5,8 @@ export default (state:any, action:any) => {
     case GET_PROJECTS:
       return{
         ...state,
-        projects: action.payload
+        projects: action.payload,
+        message: null
       }
     case PROJECT_ERROR:
       return{
