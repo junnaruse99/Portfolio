@@ -12,32 +12,6 @@ const Navbar = () => {
   // Set the class dependeing on the position of the scroll
   const [navPosition, setNavPosition] = useState<string>('');
 
-  // Function to set the scroll position
-  const handleScroll = () => {
-      const position = window.pageYOffset;
-      setScrollPosition(position);
-  };
-  // Get the viewport size
-  const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
-
-  // Calculate when there is a change
-  useEffect(() => {
-      // component will mount
-      window.addEventListener('scroll', handleScroll, { passive: true });
-
-      // Change the class depending on the difference on the position of the scroll
-      if (scrollPosition > 0.90*vh) {
-        setNavPosition('fixed');
-      } else {
-        setNavPosition('absolute');
-      }
-
-      // Component will unmount
-      return () => {
-          window.removeEventListener('scroll', handleScroll);
-      };
-  });
-
   // Logic to set active nav
   const aux : string[] = Array(nav.length).fill('');
   aux[0] = 'active';
@@ -52,6 +26,52 @@ const Navbar = () => {
       setToggleClass('toggle-active');
     }
   }
+
+  // Function to set the scroll position
+  const handleScroll = () => {
+      const position = window.pageYOffset;
+      setScrollPosition(position);
+  };
+  // Get the viewport size
+  const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+  
+  // Get Id of models
+  let idsOffset : number[] = [];
+  for (let i = 0; i < nav.length; i++) {
+    const element = document.getElementById(nav[i]);
+    idsOffset[i] = element ? element.offsetTop : 0;
+  };
+  
+  // Function to check in what section I am currently in
+  const checkSection = () => {
+    for (let i = nav.length - 1; i >= 0; i--) {
+      if (idsOffset[i] && idsOffset[i] < scrollPosition) {
+        onActive(i);
+        break;
+      }
+    }
+  };
+
+  // Calculate when there is a change
+  useEffect(() => {
+      // component will mount
+      window.addEventListener('scroll', handleScroll, { passive: true });
+      
+      // Change the class depending on the difference on the position of the scroll
+      if (scrollPosition > 0.90*vh) {
+        setNavPosition('fixed');
+      } else {
+        setNavPosition('absolute');
+      }
+
+      // Check section
+      checkSection();
+
+      // Component will unmount
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      };
+  });
 
   // Function called to set to active when clicking on nav
   const onActive = (id : number) : void => {
