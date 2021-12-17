@@ -63,7 +63,7 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${navPosition}`}>
-      <button className='nav-toggle' onClick={activateToggle}><FontAwesomeIcon icon={faBars} size = '1x'/></button>
+      <button className='nav-toggle' onClick={activateToggle}><FontAwesomeIcon icon={faBars} size='lg'/></button>
       <ul className={`navbar-nav ${toggleClass}`}>
         {nav.map((item, idx) => (
           <li key={idx} className={`nav-item ${active[idx]}`} onClick={() => onActive(idx)}><a href={`#${item}`}>{item}</a></li>

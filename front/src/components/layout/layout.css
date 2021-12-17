@@ -45,6 +45,7 @@
 .nav-toggle {
     margin: 10px;
     border-radius: 5px;
+    width: 50px;
 }
 
 .navbar-nav a {
@@ -58,13 +59,13 @@
     color: ligthgray;
 }
   
-@media (min-width:768px) {
+@media (min-width:900px) {
     .nav-toggle {
         display:None;
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:900px) {
     .navbar {
         right:0;
         z-index:999;
