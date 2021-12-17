@@ -60,7 +60,7 @@
     color: ligthgray;
 }
   
-@media (min-width:900px) {
+@media (min-width:901px) {
     .nav-toggle {
         display:None;
     }
