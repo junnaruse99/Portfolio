@@ -31,6 +31,8 @@ const Navbar = () => {
   const handleScroll = () => {
       const position = window.pageYOffset;
       setScrollPosition(position);
+      checkSection();
+
   };
   // Get the viewport size
   const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
@@ -65,7 +67,6 @@ const Navbar = () => {
       }
 
       // Check section
-      checkSection();
 
       // Component will unmount
       return () => {
