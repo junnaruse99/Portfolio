@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #E5E4E2;
+  background-color: rgb(38, 70, 83);
 }
 
 code {
@@ -21,19 +21,19 @@ code {
 
 @media (min-width:992px) {
   .container {
-    max-width: 792px;
+    max-width: 700px;
   }
 }
 
 @media (min-width:1200px) {
   .container {
-    max-width: 1000px;
+    max-width: 900px;
   }
 }
 
 @media (min-width:1400px) {
   .container {
-    max-width: 1200px;
+    max-width: 1100px;
   }
 }
 

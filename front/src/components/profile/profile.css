@@ -4,7 +4,7 @@
     right: 2%;
     width:110px;
     height:50px;
-    background-color: black;
+    background-color: #434242;
     color:white;
     height: 100px;
 }
@@ -23,7 +23,7 @@
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:900px) {
     .btn-profile {
         width:100%;
         right: 0%;

@@ -10,7 +10,7 @@ const Education = () => {
     return (
         <div className='bg-white'>
             <div className='container' id='Education'>
-                <h1 className='mb-4 text-center'>Education</h1>
+                <h1 className='mb-5 text-center'>Education</h1>
                 {educations.length ? (
                     educations.map( education => 
                         <ListEducation education={education}  key={education.id} /> 

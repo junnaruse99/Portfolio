@@ -9,7 +9,7 @@ const Experience = () => {
 
     return (
         <div className='container' id='Experience'>
-            <h1 className='mb-4 text-center'>Experience</h1>
+            <h1 className='mb-5 text-center'>Experience</h1>
             {experiences.length ? (
                 experiences.map( experience => 
                     <ListExperience experience={experience}  key={experience.id} /> 

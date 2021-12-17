@@ -14,7 +14,7 @@ const Footer = () => {
     return(
         <footer className='bg-dark text-white'>
             <div className='container' id="Contact">
-                <h3 className='mb-4'>Contact</h3>
+                <h3 className='mb-5'>Contact</h3>
 
                 <div className='row'>
                     <a className='col-sm-3 col-6' href={medias[0].contact} target='_blank'><p><FontAwesomeIcon icon={faGithub}/> {medias[0].description}</p></a>

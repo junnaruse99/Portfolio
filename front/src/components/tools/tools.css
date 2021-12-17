@@ -1,3 +1,11 @@
 #Tools {
     padding: 15vh 0;
 }
+
+.card-tool-text {
+    color: black;
+}
+
+.card-tool-title {
+    text-align: center;
+}
