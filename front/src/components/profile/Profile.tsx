@@ -16,7 +16,7 @@ const Profile = () => {
     if (!personal) return(<div></div>);
 
     return(
-    <div className='bg-white'>
+    <div className='bg-profile'>
         <div className='container d-flex flex-column justify-content-center align-items-center vh-100' id="Profile">
             <div className='display-1'>{personal.name}</div>
             <hr className='w-100'/>
