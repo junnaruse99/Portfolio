@@ -18,6 +18,7 @@
 .card {
     position: relative;
     border: 0px;
+    min-height: 375px;
 }
 
 .card-body {
