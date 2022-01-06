@@ -6,8 +6,26 @@
     font-weight: bold;
 }
 
-#Contact a {
+.contact-link{
     text-decoration: none;
     color: white;
     text-align: center;
+}
+
+.next-to-button {
+    margin-left: 10px;
+}
+
+.next-to-button a {
+    color: #1c6dd0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.next-to-button a:hover {
+    color: blue 
+}
+
+.contactFormHidden {
+    display: none;
 }

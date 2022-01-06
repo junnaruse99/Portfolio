@@ -47,7 +47,7 @@ const Navbar = () => {
   // Function to check in what section I am currently in
   const checkSection = () => {
     for (let i = nav.length - 1; i >= 0; i--) {
-      if (idsOffset[i] && idsOffset[i] < scrollPosition) {
+      if (idsOffset[i] && idsOffset[i] - 10 < scrollPosition) {
         onActive(i);
         break;
       }
@@ -87,7 +87,7 @@ const Navbar = () => {
       <button className='nav-toggle' onClick={activateToggle}><FontAwesomeIcon icon={faBars} size='lg'/></button>
       <ul className={`navbar-nav ${toggleClass}`}>
         {nav.map((item, idx) => (
-          <li key={idx} className={`nav-item ${active[idx]}`} onClick={() => onActive(idx)}><a href={`#${item}`}>{item}</a></li>
+          <li key={idx} className={`nav-item ${active[idx]}`} onClick={() => {}}><a href={`#${item}`}>{item}</a></li>
         ))}
       </ul>
     </nav>

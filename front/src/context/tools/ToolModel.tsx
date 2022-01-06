@@ -13,6 +13,7 @@ export interface Tool {
   img: string;
   description: string;
   tool_id: number;
+  level: number;
 }
 
 export const defaultTools : Tools = {

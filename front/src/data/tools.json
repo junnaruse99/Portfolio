@@ -5,7 +5,8 @@
     "url":"https://www.javascript.com/",
     "img":"https://i.ibb.co/x5xLYBb/javascript.png",
     "description": "JavaScript.com is a resource built by the Pluralsight team for the JavaScript community.",
-    "tool_id": 1
+    "tool_id": 1,
+    "level": 2
   },
   {
     "id":2,
@@ -13,7 +14,8 @@
     "url":"https://www.python.org/",
     "img":"https://i.ibb.co/bQGYBXS/python.png",
     "description": "The core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists.",
-    "tool_id": 1
+    "tool_id": 1,
+    "level": 3
   },
   {
     "id":3,
@@ -21,7 +23,8 @@
     "url":"https://www.w3schools.com/html/",
     "img":"https://i.ibb.co/7K5gsM2/html.png",
     "description": "HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!",
-    "tool_id": 1
+    "tool_id": 1,
+    "level": 3
   },
   {
     "id":4,
@@ -29,7 +32,8 @@
     "url":"https://www.w3schools.com/css/",
     "img":"https://i.ibb.co/F74vH27/css.png",
     "description": "HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!",
-    "tool_id": 1
+    "tool_id": 1,
+    "level": 2
   },
   {
     "id":5,
@@ -37,7 +41,8 @@
     "url":"https://www.java.com/en/",
     "img":"https://i.ibb.co/18bmppr/java.jpg",
     "description": "Java is a programming language and computing platform first released by Sun Microsystems in 1995.",
-    "tool_id": 1
+    "tool_id": 1,
+    "level": 1
   },
   {
     "id":6,
@@ -45,7 +50,8 @@
     "url":"https://www.typescriptlang.org/",
     "img":"https://i.ibb.co/kQDZ8J7/typescript.png",
     "description": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
-    "tool_id": 1
+    "tool_id": 1,
+    "level": 2
   },
   {
     "id":7,
@@ -53,7 +59,8 @@
     "url":"https://reactjs.org/",
     "img":"https://i.ibb.co/xC2GKZn/react.png",
     "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
-    "tool_id": 2
+    "tool_id": 2,
+    "level": 2
   },
   {
     "id":8,
@@ -61,7 +68,8 @@
     "url":"https://getbootstrap.com/",
     "img":"https://i.ibb.co/VWY1ynL/bootstrap.png",
     "description": "Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkits.",
-    "tool_id": 2
+    "tool_id": 2,
+    "level": 2
   },
   {
     "id":9,
@@ -69,7 +77,8 @@
     "url":"https://nodejs.org/es/",
     "img":"https://i.ibb.co/XbCsMrD/nodejs.png",
     "description": "Node.js® es un entorno de ejecución para JavaScript construido con el motor de JavaScript V8 de Chrome.",
-    "tool_id": 2
+    "tool_id": 2,
+    "level": 2
   },
   {
     "id":10,
@@ -77,7 +86,8 @@
     "url":"https://www.djangoproject.com/",
     "img":"https://i.ibb.co/p1DpWMY/django.png",
     "description": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.",
-    "tool_id": 2
+    "tool_id": 2,
+    "level": 2
   },
   {
     "id":11,
@@ -85,7 +95,8 @@
     "url":"https://flask.palletsprojects.com/en/2.0.x/",
     "img":"https://i.ibb.co/SPt7YwV/flask.png",
     "description": "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.",
-    "tool_id": 2
+    "tool_id": 2,
+    "level": 2
   },
   {
     "id":12,
@@ -93,7 +104,8 @@
     "url":"https://www.mysql.com/",
     "img":"https://i.ibb.co/q9nn7kp/mysql.png",
     "description": "MySQL Database Service is a fully managed database service to deploy cloud-native applications.",
-    "tool_id": 3
+    "tool_id": 3,
+    "level": 2
   },
   {
     "id":13,
@@ -101,7 +113,8 @@
     "url":"https://www.postgresql.org/",
     "img":"https://i.ibb.co/bQ6SNvV/postgresql.png",
     "description": "PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development.",
-    "tool_id": 3
+    "tool_id": 3,
+    "level": 1
   },
   {
     "id":14,
@@ -109,7 +122,8 @@
     "url":"https://www.mongodb.com/",
     "img":"https://i.ibb.co/QmfwVRM/mongodb.png",
     "description": "MongoDB is a document-oriented NoSQL database used for high volume data storage.",
-    "tool_id": 3
+    "tool_id": 3,
+    "level": 1
   },
   {
     "id":15,
@@ -117,7 +131,8 @@
     "url":"https://aws.amazon.com/",
     "img":"https://i.ibb.co/k5qsynT/aws.png",
     "description": "Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally.",
-    "tool_id": 4
+    "tool_id": 4,
+    "level": 1
   },
   {
     "id":16,
@@ -125,7 +140,8 @@
     "url":"https://cloud.google.com/",
     "img":"https://i.ibb.co/zmVjjWZ/gcloud.png",
     "description": "Is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, Google Drive, and YouTube.",
-    "tool_id": 4
+    "tool_id": 4,
+    "level": 2
   },
   {
     "id":17,
@@ -133,7 +149,8 @@
     "url":"https://github.com/",
     "img":"https://i.ibb.co/FHqJRWv/github.png",
     "description": "GitHub, Inc. is a provider of Internet hosting for software development and version control using Git.",
-    "tool_id": 4
+    "tool_id": 4,
+    "level": 3
   },
   {
     "id":18,
@@ -141,7 +158,8 @@
     "url":"https://gitlab.com/",
     "img":"https://i.ibb.co/yhpTtJV/gitlab.png",
     "description": "GitLab is The DevOps Platform, delivered as a single application. This makes GitLab unique and creates a streamlined software workflow, unlocking your organization from the constraints of a pieced together toolchain.",
-    "tool_id": 4
+    "tool_id": 4,
+    "level": 3
   },
   {
     "id":19,
@@ -149,7 +167,8 @@
     "url":"https://sentry.io/welcome/",
     "img":"https://i.ibb.co/5cD1z1R/sentry.png",
     "description": "With Sentry’s performance monitoring you can trace performance issues to poor-performing api calls and slow database queries.",
-    "tool_id": 4
+    "tool_id": 4,
+    "level": 1
   },
   {
     "id":20,
@@ -157,7 +176,8 @@
     "url":"https://www.docker.com/",
     "img":"https://i.ibb.co/j8vTH1L/docker.png",
     "description": "Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud.",
-    "tool_id": 4
+    "tool_id": 4,
+    "level": 1
   },
   {
     "id":21,
@@ -165,7 +185,8 @@
     "url":"https://analytics.google.com/",
     "img":"https://i.ibb.co/pLNrfrG/ganalytics.png",
     "description": "Google Analytics is a web analytics service that provides statistics and basic analytical tools for search engine optimization (SEO) and marketing purposes.",
-    "tool_id": 4
+    "tool_id": 4,
+    "level": 1
   },
   {
     "id":22,
@@ -173,6 +194,7 @@
     "url":"https://www.heroku.com/",
     "img":"https://i.ibb.co/0t2NCFY/heroku.jpg",
     "description": "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
-    "tool_id": 4
+    "tool_id": 4,
+    "level": 3
   }
 ]
