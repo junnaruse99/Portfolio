@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "name": "Full Stack Software Engineer",
+        "start_date": "May 2022",
+        "end_date": "Today",
+        "location": "Ernst & Young",
+        "description": "Development of features for web applications with React typescript, C# and Miscrosoft SQL with Azure tools for continous integration.",
+        "achievements": "Worked with multidisciplinary group of people to be able to respond to client demands."
+    },
+    {
+        "id": 2,
         "name": "Software Engineer Intern",
         "start_date": "Jan 2021",
         "end_date": "Mar 2021",
