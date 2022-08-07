@@ -3,7 +3,7 @@
 }
 
 #Projects h1 {
-    color: white;
+    color: black;
 }
 
 .proj-img {
@@ -83,7 +83,7 @@
 
 #Projects .card {
     width: 45%;
-    margin: 10vh 0;
+    margin: 0 0;
 }
 
 .card {

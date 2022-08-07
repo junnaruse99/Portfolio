@@ -10,7 +10,7 @@ const ListTools = ({tool}:{tool:Tool}) => {
   const starLevel = [1, 2, 3];
 
   return(
-  <div className="card col-12 col-md-4 col-lg-3 align-items-stretch">
+  <div className="card col-12 col-md-4 col-lg-3 align-items-stretch m-2">
     <a className='card-tool' href={tool.url} target="_blank">
       <div className='card-img-container row justify-content-center p-3'>
         <img className="card-img card-img-top" src={tool.img} alt="Card image" />

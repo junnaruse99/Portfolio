@@ -1,5 +1,6 @@
 #Tools {
     padding: 15vh 0;
+    color: white;
 }
 
 .card-tool-text {
@@ -9,3 +10,4 @@
 .card-tool-title {
     text-align: center;
 }
+

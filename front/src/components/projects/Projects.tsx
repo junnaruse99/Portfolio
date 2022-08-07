@@ -13,15 +13,17 @@ const Projects = () => {
 	}, []);
 
     return (
-        <div className='container' id='Projects'>
-            <h1 className='mb-4 text-center'>My Projects</h1>
-            <div className='row'>
-                {projects.length ? (
-                    projects.map(project => 
-                        <ListProject project={project} key={project.id}/>
-                    )
-                ) : <h1>Error</h1> 
-                }
+		<div className='bg-white'>
+            <div className='container' id='Projects'>
+                <h1 className='mb-4 text-center'>My Projects</h1>
+                <div className='row'>
+                    {projects.length ? (
+                        projects.map(project => 
+                            <ListProject project={project} key={project.id}/>
+                        )
+                    ) : <h1>Error</h1> 
+                    }
+                </div>
             </div>
         </div>
     )
