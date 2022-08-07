@@ -23,7 +23,7 @@ const Profile = () => {
             <div className='mt-2'>{personal.career.toUpperCase()}</div>
             <div className='mt-2'>{personal.location.toUpperCase()}</div>
         </div>
-        <a href='#Projects' className='btn-profile d-flex justify-content-center align-items-center'>
+        <a href='#Experience' className='btn-profile d-flex justify-content-center align-items-center'>
             <span><FontAwesomeIcon icon={faChevronDown} size = '2x'/></span>
         </a>
     </div>
