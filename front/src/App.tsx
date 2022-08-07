@@ -21,9 +21,9 @@ function App() {
         <ProfileState>
           <Profile />
           <Navbar/>
+          <Experience />
           <Projects />
           <Tools />
-          <Experience />
           <Education />
           <Footer />
         </ProfileState>
