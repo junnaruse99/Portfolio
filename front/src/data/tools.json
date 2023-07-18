@@ -30,7 +30,7 @@
     "id":4,
     "name":"CSS",
     "url":"https://www.w3schools.com/css/",
-    "img":"/images/tools/css.webp",
+    "img":"/images/tools/css.png",
     "description": "CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.",
     "tool_id": 1,
     "level": 2
@@ -174,7 +174,7 @@
     "id":20,
     "name":"Docker",
     "url":"https://www.docker.com/",
-    "img":"/images/tools/docker.webp",
+    "img":"/images/tools/docker.png",
     "description": "Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud.",
     "tool_id": 4,
     "level": 1
