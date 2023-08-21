@@ -20,7 +20,7 @@
     "back_url": null,
     "front_url": "https://github.com/junnaruse99/Portfolio/tree/master/front",
     "demo_url": "https://junnaruse.com",
-    "description": "Web based resume, to display my personal projects, known tools, previous experience, education and contact information.",
+    "description": "Web based resume, to display my personal projects, known tools, previous experience, education and contact information. Integrated with a chatbot powered by gpt-3.5",
     "img": "/images/projects/portfolio.jpg"
     },
     {"id": 4,

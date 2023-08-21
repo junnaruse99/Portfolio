@@ -10,8 +10,9 @@ const ListExperience = ({experience}:{experience:Experience})  => {
             </div>
             <div className='font-weight-bold'>{experience.location}</div>
             <ul>
-                <li>{experience.description}</li>
-                <li>{experience.achievements}</li>
+                {experience.description.map(description => (
+                    <li>{description}</li>
+                ))}
             </ul>
         </div>
     );

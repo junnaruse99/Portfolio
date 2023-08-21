@@ -10,6 +10,9 @@ import Experience from './components/experience/Exprience';
 import Education from './components/education/Education';
 import Footer from './components/layout/Footer';
 import initGA from './components/analytics/init';
+import ChatbotComponent from './components/chatbot/chatbot';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   
@@ -19,6 +22,8 @@ function App() {
     <ProjectState>
       <ToolState>
         <ProfileState>
+          <ToastContainer />
+          <ChatbotComponent />
           <Profile />
           <Navbar/>
           <Experience />
