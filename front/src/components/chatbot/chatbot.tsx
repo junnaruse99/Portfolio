@@ -79,11 +79,6 @@ const ChatbotComponent = () => {
 
         setMessage("");
         ChatbotService.sendMessage(message, sessionId).then(res => {
-            console.log(res);
-            if (res.status === 429){
-                toast.error("Maximum number of requests exceeded. Please try again tomorrow.")
-                return;
-            }
             if (res.status !== 200){
                 throw new Error("")
             }
@@ -102,10 +97,11 @@ const ChatbotComponent = () => {
                 toast.error("Maximum number of requests exceeded. Please try again tomorrow.")
             }
             else {
-                toast.error("There was an error connecting to the chatbot");
+                throw new Error("")
             }
             throw new Error();
         }).catch(() => {
+            toast.error("There was an error connecting to the chatbot");
             setMessage(messageCopy);
             setMessages(messages.filter(x => x.id !== messageId));
         }).finally(() => {
