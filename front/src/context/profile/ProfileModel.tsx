@@ -32,8 +32,7 @@ export interface Experience {
     start_date: Date;
     end_date: Date;
     location: string;
-    description: string;
-    achievements: string;
+    description: string[];
 }
 
 export interface Media {
