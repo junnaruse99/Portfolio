@@ -36,7 +36,9 @@ const MessageComponent = (props: IMessageProps) => {
             }
             {props.isGenerating 
                 ? 
-                    <SpinnerComponent />
+                    <div className="col-sm-10" style={{display: 'flex', alignItems: 'center', paddingLeft: '30px'}}>
+                        <SpinnerComponent />
+                    </div>
                 : 
                 <div className={`message-content ${props.isUser ? "message-content-user" : "message-content-bot col-sm-9"}`}>
                     <Linkify componentDecorator={renderLinkifiedText}>
