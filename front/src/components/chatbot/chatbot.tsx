@@ -55,6 +55,8 @@ const ChatbotComponent = () => {
     useEffect(() => {
         let localSessionId = localStorage.getItem("sessionId") || "";
 
+        if (localSessionId === "") return;
+        
         ChatbotService.getMessages(localSessionId).then(res => {
             if (res.status !== 200){
                 throw new Error();
