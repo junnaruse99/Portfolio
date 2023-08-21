@@ -5,8 +5,22 @@
         "start_date": "May 2022",
         "end_date": "Today",
         "location": "Ernst & Young",
-        "description": "Development of features for web applications with React typescript, C# and Miscrosoft SQL with Azure tools for continous integration.",
-        "achievements": "Worked with multidisciplinary group of people to be able to respond to client demands."
+        "description": [
+            "Developed and maintained feature-rich applications using frameworks such as AngularJS, React, .NET, and .NET Core, leveraging a diverse skill set encompassing HTML, CSS, JavaScript, TypeScript, C#, Python, and PHP.",
+            "Led a team in successfully refactoring a critical feature in our largest project, resulting in enhanced maintainability and scalability.",
+            "Adapted to client feedback and evolving acceptance criteria in client-facing projects, effectively managing changes and ensuring project success."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Teacher Assistant",
+        "start_date": "Aug 2023",
+        "end_date": "Today",
+        "location": "Pontificia Universidad Catolica del Peru",
+        "description": [
+            "Led interactive sessions by guiding students through consultations and project presentations using tools like GitHub and Visual Studio, exploring implemented algorithms.",
+            "Directed teams under agile methodology by acting as PO and SM, guiding teams in defining project visions, user stories, task prioritization, and obstacle resolution.",
+            "Evaluated innovative projects by assessing progress and deliverables, covering software architecture, interfaces, data persistence, graph generation, and feedback, utilizing the Scrum framework."]
     },
     {
         "id": 2,
@@ -14,7 +28,11 @@
         "start_date": "Jan 2021",
         "end_date": "Mar 2021",
         "location": "Interbank",
-        "description": "Developed a recommendation algorithm and integrated a natural language processing from google cloud platform.",
-        "achievements": "Awarded with the best project during that internship."
+        "description": [
+            "Developed and deployed machine learning features using Django framework for a gig-based website project.",
+            "Implemented a classification model utilizing natural language processing and Google Cloud Platform technologies to automate tagging of gig requirements, resulting in improved organization and search functionality, leading to a 20% increase in interactions between freelancers and clients.",
+            "Created a recommendation model that analyzed user preferences and job requirements.",
+            "Awarded for the best project in competition among more than 50 interns."
+        ]
     }
 ]
