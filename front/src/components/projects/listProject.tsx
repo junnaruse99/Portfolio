@@ -11,7 +11,7 @@ const ListProject = ({project}:{project:Project}) => {
         <div className="card">
             <div className="card-body">
                 <h5 className="card-title">{project.name}</h5>
-                {project.img? <img className='proj-img' src={project.img} /> : null} 
+                {project.img? <img className='proj-img' src={project.img} loading="lazy"/> : null} 
             </div>
             <div className='proj-data'>
                 <div className='hide-data'>
