@@ -2,7 +2,6 @@ import React, { ChangeEvent, useEffect, useRef, useState } from 'react'
 import './chatbot.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane, faRobot } from '@fortawesome/free-solid-svg-icons';
-import { init } from 'emailjs-com';
 import MessageComponent from './message';
 import { IMessage } from '../../interfaces/Message';
 import { ChatbotService } from '../../services/chatbotService';
@@ -47,12 +46,18 @@ const ChatbotComponent = () => {
     const [message, setMessage] = useState<string>("");
     const [sessionId, setSessionId] = useState<string>("");
     const [isSendEnable, setIsSendEnable] = useState<boolean>(false);
+    const [offset, setOffset] = useState(0);
+    const showChatbotIcon = offset > 0.5*Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
 
     const wrapperRef = useRef(null);
 
     useOutsideAlerter(wrapperRef, onDismiss);
 
     useEffect(() => {
+        const onScroll = () => setOffset(window.scrollY);
+        window.removeEventListener('scroll', onScroll);
+        window.addEventListener('scroll', onScroll, { passive: true });
+
         let localSessionId = localStorage.getItem("sessionId") || "";
 
         if (localSessionId === "") return;
@@ -67,6 +72,8 @@ const ChatbotComponent = () => {
         });
 
         setSessionId(localSessionId)
+
+        return () => window.removeEventListener('scroll', onScroll);
     }, [])
 
     function onDismiss(){
@@ -138,11 +145,15 @@ const ChatbotComponent = () => {
         setMessage(e.currentTarget.value)
     }
 
+    if (!showChatbotIcon) return <></>
+
     return (
         <div className="chatbot-container" ref={wrapperRef}>
             {!containerState.isOpen &&
-                <div className="chatbot-circle clickable" onClick={() => setContainerState({...containerState, isOpen: true})}>
-                    <FontAwesomeIcon style={{color:'white'}} icon={faRobot} size='lg'/>
+                <div className="circle-effect">
+                    <div className="chatbot-circle clickable" onClick={() => setContainerState({...containerState, isOpen: true})}>
+                        <FontAwesomeIcon style={{color:'white'}} icon={faRobot} size='lg'/>
+                    </div>
                 </div>
             }
             {containerState.isOpen &&
