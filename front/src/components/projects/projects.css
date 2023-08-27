@@ -1,5 +1,5 @@
 #Projects {
-    padding: 15vh 0;
+    padding: 15vh 25px;
 }
 
 #Projects h1 {
@@ -18,7 +18,8 @@
 .card {
     position: relative;
     border: 0px;
-    min-height: 375px;
+    min-height: 400px;
+    font-size: 0.8em;
 }
 
 .card-body {
