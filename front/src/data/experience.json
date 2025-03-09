@@ -1,21 +1,33 @@
 [
     {
         "id": 1,
-        "name": "Full Stack Software Engineer",
-        "start_date": "May 2022",
-        "end_date": "Today",
-        "location": "Ernst & Young",
+        "name": "Software Engineer",
+        "start_date": "Dec 2023",
+        "end_date": "Now",
+        "location": "BBVA",
         "description": [
-            "Developed and maintained feature-rich applications using frameworks such as AngularJS, React, .NET, and .NET Core, leveraging a diverse skill set encompassing HTML, CSS, JavaScript, TypeScript, C#, Python, and PHP.",
-            "Led a team in successfully refactoring a critical feature in our largest project, resulting in enhanced maintainability and scalability.",
-            "Adapted to client feedback and evolving acceptance criteria in client-facing projects, effectively managing changes and ensuring project success."
+            "Led the implementation of a customer retention system for insurance cancellations, achieving a 30% retention rate.",
+            "Successfully integrated an external payment gateway, facilitating an average of 15 daily payments for overdue installments.",
+            "Coordinated the production launch of a new vehicle insurance product in an open channel, achieving an average of 100 daily sales."
         ]
     },
     {
         "id": 2,
+        "name": "Software Engineer",
+        "start_date": "May 2022",
+        "end_date": "Dec 2023",
+        "location": "Ernst & Young",
+        "description": [
+            "Developed and maintained feature-rich applications using frameworks such as AngularJS, React, .NET, and .NET Core, leveraging a diverse skill set encompassing HTML, CSS, JavaScript, TypeScript, C#, Python, and PHP.",
+            "Led a team in successfully refactoring a critical feature in our largest project, resulting in enhanced maintainability and scalability.",
+            "Led a team to refactor the most-used endpoint, reducing response time from 5 seconds to under 1 second through pagination, code cleanup, and optimized database queries"
+        ]
+    },
+    {
+        "id": 3,
         "name": "Teacher Assistant",
         "start_date": "Aug 2023",
-        "end_date": "Today",
+        "end_date": "Dec 2023",
         "location": "Pontificia Universidad Catolica del Peru",
         "description": [
             "Led interactive sessions by guiding students through consultations and project presentations using tools like GitHub and Visual Studio, exploring implemented algorithms.",
@@ -23,15 +35,15 @@
             "Evaluated innovative projects by assessing progress and deliverables, covering software architecture, interfaces, data persistence, graph generation, and feedback, utilizing the Scrum framework."]
     },
     {
-        "id": 2,
+        "id": 4,
         "name": "Software Engineer Intern",
         "start_date": "Jan 2021",
         "end_date": "Mar 2021",
         "location": "Interbank",
         "description": [
             "Developed and deployed machine learning features using Django framework for a gig-based website project.",
-            "Implemented a classification model utilizing natural language processing and Google Cloud Platform technologies to automate tagging of gig requirements, resulting in improved organization and search functionality, leading to a 20% increase in interactions between freelancers and clients.",
-            "Created a recommendation model that analyzed user preferences and job requirements.",
+            "Implemented a classification model utilizing natural language processing and GCP, leading to a 20% increase in interactions between freelancers and clients.",
+            "Created a recommendation model that analyzed user preferences and job requirements",
             "Awarded for the best project in competition among more than 50 interns."
         ]
     }
